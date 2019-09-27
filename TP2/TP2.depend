@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1569557672 source:c:\users\lauti\desktop\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1569557603 c:\users\lauti\desktop\tp2\arrayemployees.h
+
+1569557672 source:c:\users\lauti\desktop\programacion-laboratorio-1\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1569557603 c:\users\lauti\desktop\programacion-laboratorio-1\tp2\arrayemployees.h
+
+1569557677 source:c:\users\lauti\desktop\programacion-laboratorio-1\tp2\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+
