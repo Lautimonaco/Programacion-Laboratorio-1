@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567170656 source:c:\users\alumno\desktop\monaco\programacion1\programacion\clase 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblioteca.h"
+
+1567170724 source:c:\users\alumno\desktop\monaco\programacion1\programacion\clase 3\biblioteca.c
+	"biblioteca.h"
+
+1567170633 c:\users\alumno\desktop\monaco\programacion1\programacion\clase 3\biblioteca.h
+	<stdio.h>
+

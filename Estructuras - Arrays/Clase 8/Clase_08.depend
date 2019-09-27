@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1568905662 source:c:\users\alumno\appdata\local\temp\temp1_ejercicio_ejemplo_clase_8.zip\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+
+1568905209 c:\users\alumno\appdata\local\temp\temp1_ejercicio_ejemplo_clase_8.zip\utn.h
+
+1568903599 source:c:\users\alumno\appdata\local\temp\temp1_ejercicio_ejemplo_clase_8.zip\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1568943972 source:c:\users\lauti\desktop\programacion\programacion1\laboratorio\clase 8 - estructuras - arrays\clase 8\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+
+1568943162 c:\users\lauti\desktop\programacion\programacion1\laboratorio\clase 8 - estructuras - arrays\clase 8\utn.h
+
+1568943510 source:c:\users\lauti\desktop\programacion\programacion1\laboratorio\clase 8 - estructuras - arrays\clase 8\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1568990152 source:c:\users\alumno\desktop\programacion1-master\laboratorio\clase 8 - estructuras - arrays\clase 8\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+
+1568989758 c:\users\alumno\desktop\programacion1-master\laboratorio\clase 8 - estructuras - arrays\clase 8\utn.h
+
+1568989746 source:c:\users\alumno\desktop\programacion1-master\laboratorio\clase 8 - estructuras - arrays\clase 8\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+

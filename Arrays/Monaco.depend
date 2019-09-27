@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1566486427 source:c:\users\alumno\documents\codeblocks\monaco\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1566573881 source:c:\users\alumno\desktop\clase 2\programacion1\monaco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+
+1566578739 source:e:\pc\desktop\programacion 1\programacion1\monaco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+

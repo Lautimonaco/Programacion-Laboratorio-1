@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1568291365 source:c:\users\alumno\documents\codeblocks\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1568298947 source:c:\users\alumno\desktop\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arrays.h"
+
+1568298531 c:\users\alumno\desktop\arrays\arrays.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1568299131 source:c:\users\alumno\desktop\arrays\arrays.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arrays.h"
+

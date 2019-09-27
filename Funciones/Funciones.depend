@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1567090140 source:d:\monaco\funcionesenc\funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+
