@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 typedef struct {
     int dia;
@@ -20,8 +23,9 @@ typedef struct {
     int idDuenio;
 }eVehiculo;
 
- void cargarPersonas(ePersona pesonas[], int cantidad);
- void mostrarPersonas(ePersona pesonas[], int cantidad);
- int buscarIndicePersona(ePersona personas[], int cant, int id);
-void mostrarVehiculos(ePersona pesonas[],eVehiculo vehiculos[], int cantidad, int cantPersonas);
-ePersona buscarPersona(ePersona personas[], int cant, int id);
+void hardcodeoAutos(eVehiculo listaAutos[], int cant);
+void hardcodePersonas(ePersona listaPersonas[],int cant);
+void mostrarPersonas(ePersona personas[], int cantidad);
+void mostrarVehiculos(ePersona personas[],eVehiculo vehiculos[], int cantidad, int cantPersonas);
+int buscarIndicePersona(ePersona personas[], int cantidad, int id);
+ePersona buscarPersona(ePersona personas[], int cantidad, int id);

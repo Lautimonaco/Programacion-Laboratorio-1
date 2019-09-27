@@ -20,3 +20,20 @@
 
 1569509558 c:\users\alumno\desktop\estacionamiento\libreria.h
 
+1569596076 source:c:\users\alumno\desktop\programacion-laboratorio-1-master\programacion-laboratorio-1-master\abm (estacionamiento)\libreria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
+1569596080 c:\users\alumno\desktop\programacion-laboratorio-1-master\programacion-laboratorio-1-master\abm (estacionamiento)\libreria.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1569596201 source:c:\users\alumno\desktop\programacion-laboratorio-1-master\programacion-laboratorio-1-master\abm (estacionamiento)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libreria.h"
+
