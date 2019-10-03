@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1570114092 source:c:\users\alumno\documents\codeblocks\simulacro parcial\simulacro.c
+	<stdio.h>
+	<stdlib.h>
+	"Simulacro.h"
+
+1570114053 c:\users\alumno\documents\codeblocks\simulacro parcial\simulacro.h
+	<stdio.h>
+	<stdlib.h>
+
+1570114511 source:c:\users\alumno\documents\codeblocks\simulacro parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Simulacro.h"
+
