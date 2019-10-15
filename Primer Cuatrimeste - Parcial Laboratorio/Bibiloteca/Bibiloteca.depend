@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1570715939 source:c:\users\alumno\desktop\bibiloteca\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570711534 source:c:\users\alumno\desktop\bibiloteca\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570716126 source:c:\users\alumno\desktop\bibiloteca\jugadores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570716205 c:\users\alumno\desktop\bibiloteca\equipos.h
+
+1570716167 c:\users\alumno\desktop\bibiloteca\jugadores.h
+
+1570716192 c:\users\alumno\desktop\bibiloteca\referi.h
+
+1570711376 c:\users\alumno\desktop\bibiloteca\partido.h
+
+1570709630 c:\users\alumno\desktop\bibiloteca\funcionesget.h
+
+1570715246 source:c:\users\alumno\desktop\bibiloteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570715491 source:c:\users\alumno\desktop\bibiloteca\partido.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570715206 source:c:\users\alumno\desktop\bibiloteca\referi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570994412 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570995033 c:\users\lauti\desktop\parcial laboratorio\bibiloteca\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570994980 c:\users\lauti\desktop\parcial laboratorio\bibiloteca\jugadores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570995333 c:\users\lauti\desktop\parcial laboratorio\bibiloteca\referi.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570995262 c:\users\lauti\desktop\parcial laboratorio\bibiloteca\partido.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570995295 c:\users\lauti\desktop\parcial laboratorio\bibiloteca\funcionesget.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570995360 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570996191 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\jugadores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570996559 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570716445 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\partido.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1570716445 source:c:\users\lauti\desktop\parcial laboratorio\bibiloteca\referi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
