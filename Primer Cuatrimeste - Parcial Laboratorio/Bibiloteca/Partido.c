@@ -89,7 +89,7 @@ int cargarPartido(ePartido listaPartido[], eEquipo listaEquipos[], eReferi lista
         listaPartido[i].fechaPartido.anio = getInt("Anio: ");
         listaPartido[i].codigo = ID;
         listaPartido[i].estado = OCUPADO;
-        listaPartidoP[i].codigo = ID;
+        listaPartido[i].codigo = ID;
         listaPartido[i].estado = OCUPADO;
     }
     return r;

@@ -111,7 +111,7 @@ int CargarEquipo(eEquipo listaEquipos[], int cant, int ID)
 
 void MostrarEquipo(eEquipo Equipo)
 {
-    printf("%03d \t %20s \t %20s \n" Equipo.codigo, Equipo.nombre, Equipo.localidad);
+    printf("%03d \t %20s \t %20s \n", Equipo.codigo, Equipo.nombre, Equipo.localidad);
 }
 
 void MostrarListaEquipos(eEquipo listaEquipos[], int cant)

@@ -25,15 +25,62 @@ typedef struct
 }eJugadores;
 
 
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 int inicializarJugadores(eJugadores[], int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 int buscarJugadoresLibre(eJugadores[],int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 int cargarJugador(eJugadores [],eEquipo[],int, int, int);
 
-void MostrarJugador(eJugadores);
 
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
+void MostrarJugador(eJugadores[]);
+
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 void mostrarListaJugadores(eJugadores[], int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 void OrdenarJugadoresApellido(eJugadores[], int);
 

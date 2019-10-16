@@ -15,14 +15,61 @@ typedef struct
 }eEquipo;
 
 
+/** \brief
+ *
+ * \param eEquipo[]
+ * \param int
+ * \return int
+ *
+ */
 int inicializarEquipos(eEquipo[], int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 int buscarEquiposLibre(eEquipo[],int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 int CargarEquipo(eEquipo[], int, int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 void MostrarEquipo(eEquipo[]);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 void MostrarListaEquipos(eEquipo[], int);
 
+
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
 void OrdenarEquiposNombre(eEquipo[], int);
