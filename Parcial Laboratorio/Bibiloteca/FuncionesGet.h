@@ -1,4 +1,10 @@
-#define MAX 1000
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define LIBRE 0
+#define OCUPADO 1
+#define MAX 50
 
 /** \brief Solicita un numero al usuario y devuelve el resultado
  *
@@ -91,3 +97,12 @@ int getStringNumeros(char mensaje[], char input[]);
  * \return 1 si el texto contiene solo números enteros o letras.
  */
  int getAlfaNumerico(char mensaje[], char input[]);
+
+
+/** \brief Solicita un texto al usuario.
+ *
+ * \param mensaje Es el mensaje a ser mostrado.
+ * \param input Array donde se cargara el texto ingresado.
+ * \return void.
+ */
+ char* ingresarString(char* string1);

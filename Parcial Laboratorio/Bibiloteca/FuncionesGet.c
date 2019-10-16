@@ -8,7 +8,7 @@
 #include "Partido.h"
 #include "FuncionesGet.h"
 
-#define MAX 1000
+#define MAX 50
 
 char getChar (char mensaje[])
 {
@@ -115,3 +115,11 @@ int getAlfaNumerico(char mensaje[], char input[])
     }
     return 0;
 }
+
+char* ingresarString(char* string1)
+{
+    fflush(stdin);
+    gets(string1);
+    return string1;
+}
+
