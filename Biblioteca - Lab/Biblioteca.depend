@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1571290472 source:c:\users\windows10\desktop\biblioteca\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571290524 c:\users\windows10\desktop\biblioteca\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571290545 source:c:\users\windows10\desktop\biblioteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571289299 source:c:\users\windows10\desktop\biblioteca\jugadores.c
+
