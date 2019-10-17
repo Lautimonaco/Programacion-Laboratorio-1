@@ -34,3 +34,88 @@
 	<stdlib.h>
 	<string.h>
 
+1571196328 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1571196328 c:\users\windows10\desktop\parcial laboratorio\bibiloteca\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571196328 c:\users\windows10\desktop\parcial laboratorio\bibiloteca\jugadores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571196329 c:\users\windows10\desktop\parcial laboratorio\bibiloteca\referi.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571196329 c:\users\windows10\desktop\parcial laboratorio\bibiloteca\partido.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571196328 c:\users\windows10\desktop\parcial laboratorio\bibiloteca\funcionesget.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571196328 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1571196328 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\jugadores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1571276847 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1571196329 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\partido.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+
+1571196329 source:c:\users\windows10\desktop\parcial laboratorio\bibiloteca\referi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+	"Jugadores.h"
+	"Referi.h"
+	"Partido.h"
+	"FuncionesGet.h"
+

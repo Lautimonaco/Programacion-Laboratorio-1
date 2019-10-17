@@ -24,6 +24,7 @@ int main()
     eReferi listaReferi[MAX];
     ePartido listaPartido[MAX];
 
+    char salir = 'n';
     int opcion;
     int idJugadores = 1;
     int idEquipos = 1;
@@ -31,8 +32,8 @@ int main()
     int idPartidos = 1;
     int r;
 
-    if((inicializarEquipos(listaEquipos, E)== 0 && inicializarJugadores(listaJugadores, J) == 0) &&
-            (inicializarReferi(listaReferi, R) == 0 && inicializarPartidos(listaPartido, P)== 0))
+    /*if((inicializarEquipos(listaEquipos, E)== 0 && inicializarJugadores(listaJugadores, J) == 0) &&
+            (inicializarReferi(listaReferi, R) == 0 && inicializarPartidos(listaPartido, P)== 0))*/
     {
 
         do
@@ -52,7 +53,7 @@ int main()
             fflush(stdin);
             scanf("%d", &opcion);
 
-            while (opcion!='1' && opcion!='2' && opcion!='3' && opcion!='4' && opcion!='5' && opcion!='6' && opcion!='7' && opcion!='8')
+            while (opcion!=1 && opcion!=2 && opcion!=3 && opcion!=4 && opcion!=5 && opcion!=6 && opcion!=7 && opcion!=8)
             {
                 printf("Error, la opcion es incorrecta!\n\n");
                 printf("Reingrese una opcion: ");
@@ -62,7 +63,7 @@ int main()
 
             switch (opcion)
             {
-            case '1':
+            case 1:
                 r = CargarEquipo(listaEquipos, E, idEquipos);
                 if(r==0)
                 {
@@ -75,14 +76,14 @@ int main()
                 }
                 break;
 
-            case '2':
+            case 2:
                 OrdenarEquiposNombre(listaEquipos, E);
                 MostrarListaEquipos(listaEquipos, E);
                 MostrarEquipo(listaEquipos);
                 break;
 
-            case '3':
-                r = cargarJugadores(listaJugadores, listaPartido, J, P, idJugadores);
+            case 3:
+                r = cargarJugadores(listaJugadores, listaEquipos, J, E, idJugadores);
                 if(r==0)
                 {
                     printf("Jugador cargado con exito.\n");
@@ -94,13 +95,13 @@ int main()
                 }
                 break;
 
-            case '4':
+            case 4:
                 OrdenarJugadoresApellido(listaJugadores, J);
                 MostrarListaJugadores(listaJugadores, J);
                 break;
 
-            case '5':
-                r = cargarReferi(listaReferi, R, idReferi);
+            case 5:
+//                r = cargarReferi(listaReferi, R, idReferi);
                 if(r==0)
                 {
                     printf("Referi cargado con exito.\n");
@@ -112,8 +113,8 @@ int main()
                 }
                 break;
 
-            case '6':
-                r = cargarPartido(listaPartido, listaEquipos, listaReferi, P, E, R, J, idPartidos);
+            case 6:
+//                r = cargarPartido(listaPartido, listaEquipos, listaReferi, P, E, R, J, idPartidos);
                 if(r==0)
                 {
                     printf("Partido cargado con exito.\n");
@@ -125,22 +126,29 @@ int main()
                 }
                 break;
 
-            case '7':
-                OrdenarPartidosFecha(listaPartido, P);
-                MostrarListaPartidos(listaPartido, P);
+            case 7:
+//                OrdenarPartidosFecha(listaPartido, P);
+//                MostrarListaPartidos(listaPartido, P);
                 break;
 
-            default:
-                printf("Erorr, Ingrese una opcion correcta del 1 al 7.\n\n\n");
+            case 8:
+                printf("Desea salir del programa?: SI:'s' --- NO:'n'  \n");
+                fflush(stdin);
+                scanf("%c",&salir);
+                break;
+
+
+            /*default:
+                printf("Erorr, Ingrese una opcion correcta del 1 al 8.\n\n\n");*/
             }
 
             system("pause");
             system("cls");
         }
 
-        while (opcion!='8');
+        while (salir == 'n');
     }
-    else
+//    else
     {
         printf("No se pudo iniciar el programa.\n");
     }
