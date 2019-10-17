@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1571290472 source:c:\users\windows10\desktop\biblioteca\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571290524 c:\users\windows10\desktop\biblioteca\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571290545 source:c:\users\windows10\desktop\biblioteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571289299 source:c:\users\windows10\desktop\biblioteca\jugadores.c
+
+1571315328 source:c:\users\alumno\desktop\biblioteca - lab\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571314935 c:\users\alumno\desktop\biblioteca - lab\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571314935 source:c:\users\alumno\desktop\biblioteca - lab\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571320183 source:c:\users\alumno\desktop\biblioteca - lab - monaco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
+1571320291 c:\users\alumno\desktop\biblioteca - lab - monaco\equipos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571318991 source:c:\users\alumno\desktop\biblioteca - lab - monaco\equipos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipos.h"
+
