@@ -3,10 +3,8 @@
 #include <conio.h>
 #include <string.h>
 #include <ctype.h>
-
-//#define __unix__
 #ifdef __unix__
-#include <unistd.h>
+//#include <unistd.h>
 #else
 #include <windows.h>
 #endif
@@ -36,19 +34,19 @@ void f_i_PedirIntEntre(int * var_dondeAsignar, int min, int max, char mensaje[])
 void menu (void)
 {
     printf(
-        "/------------------------------------------------- \n"
+        "--------------------------------------------------------\\n"
         "Menu:\n"
-        "1. Cargar datos de empleados desde el archivo data.csv (modo texto).\n"
-        "2. Cargar datos de empleados desde el archivo data.bin (modo binario).\n"
+        "1. Cargar los datos de los empleados desde el archivo data.csv (modo texto).\n"
+        "2. Cargar los datos de los empleados desde el archivo data.bin (modo binario).\n"
         "3. Alta de empleado\n"
-        "4. Modificar empleado\n"
-        "5. Baja empleado\n"
-        "6. Listar empleados\n"
-        "7. Ordenar empleados\n"
-        "8. Guardar datos de los empleados en modo texto --- data.csv.\n"
-        "9. Guardar datos de los empleados en modo binario --- data.csv.\n"
+        "4. Modificar empleados\n"
+        "5. Baja de empleado\n"
+        "6. Listar\n"
+        "7. Ordenar\n"
+        "8. Guardar los datos de los empleados en el archivo data.csv (modo texto).\n"
+        "9. Guardar los datos de los empleados en el archivo data.csv (modo binario).\n"
         "10. Salir\n"
-        "/------------------------------------------------- \n"
+        "--------------------------------------------------------\n"
         "Opcion: ");
 
     return;
@@ -57,12 +55,12 @@ void menu (void)
 void menuModificacion(void)
 {
     printf(
-        "/------------------------------------------------- \n"
+        "-------------------------------------------------------- \n"
         "1. Modificar nombre del empleado.\n"
-        "2. Modificar horas trabajadas del empleado\n"
-        "3. Modificar sueldo del empleado\n"
-        "4. Cancelar\n"
-        "/------------------------------------------------- \n\n"
+        "2. Modificar horas trabajadas del empleado.\n"
+        "3. Modificar sueldo del empleado.\n"
+        "4. Cancelar.\n"
+        "--------------------------------------------------------\n"
         "Opcion: ");
 
     return;
@@ -73,12 +71,13 @@ int menuOrden(void)
     int opc;
 
     printf(
-        "/------------------------------------------------- \n"
+        "--------------------------------------------------------\n"
         "1.Ordenar empleados por nombre.\n"
-        "2.Ordenar empleados por id\n"
-        "3.Ordenar empleados por sueldo\n"
+        "2.Ordenar empleados por ID.\n"
+        "3.Ordenar empleados por sueldo.\n"
         "4 Ordenar empleados por horas trabajadas.\n"
-        "5. Cancelar\n");
+        "5. Cancelar.\n"
+        "--------------------------------------------------------\n");
 
     f_i_PedirIntEntre(&opc,1,5,"Opcion:");
     return opc;
@@ -88,7 +87,8 @@ int menuCriterio (void)
 {
     int opc;
 
-          printf("1.Ordenar de manera descendente.\n"
+    printf("--------------------------------------------------------\n"
+           "1.Ordenar de manera descendente.\n"
            "2.Ordenar de manera ascendente.\n");
 
     f_i_PedirIntEntre(&opc,1,2,"Opcion:");
@@ -120,7 +120,7 @@ void f_i_PedirNombre(char var_dondeAsignar[],int longitudMaxString, char mensaje
             if ((auxiliar[i]<'a' || auxiliar[i]>'z') && auxiliar[i] != ' ')
             {
                 no_es_un_nombre = -1;
-                printf("\n**Error, ingrese solo letras y espacios**\n");
+                printf("\nError, ingrese solo letras y espacios\n");
                 break;
             }
             else
@@ -182,7 +182,6 @@ void f_i_PedirStringSoloNumeros(char var_dondeAsignar[],int longitudMaxString,ch
     }
     while (invalido);
 
-    //elimino saltos de linea//
     int len = strlen(auxiliar);
 
     if(auxiliar[len-1]=='\n')
@@ -211,7 +210,7 @@ int f_i_SioNo(char mensaje[])
         r = toupper(getche());
         printf("\n");
     };
-    return (r=='S'); /*Devuelve 1 si se ingresa 'S'*/
+    return (r=='S');
 }
 
 void f_i_continuar(void)

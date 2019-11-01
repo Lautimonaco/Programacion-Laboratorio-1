@@ -42,7 +42,6 @@ int main()
 
         switch(option)
         {
-        //Cargar Texto
         case 1:
             limpiar();
 

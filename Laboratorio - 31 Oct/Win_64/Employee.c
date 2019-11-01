@@ -36,7 +36,6 @@ int empleado_ordenarNombre(void* ptr_EmpleadoA, void* ptr_EmpleadoB)
     {
         retorno = 0;
     }
-
     free(bufferA);
     free(bufferB);
 

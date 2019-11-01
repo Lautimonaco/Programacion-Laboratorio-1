@@ -81,19 +81,17 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     {
         //Genero un id que vale 1 mas que el mas grande asi no se repite
 
-        //ordeno por id para que el id mas grande quede a lo ultimo
+        //ordeno por id
         ll_sort(pArrayListEmployee,empleado_ordenarPorId,0);
 
-        //tomo el ultimo empleado , que tiene el id mas grande
+        //id mas alto
         ptr_UltimoEmpleado = ll_get(pArrayListEmployee,ll_len(pArrayListEmployee)-1);
 
-        //agarro su id
+        //tomo el id
         employee_getId(ptr_UltimoEmpleado,&lastId);
 
-        //le sumo 1 a ese id y se lo asigno al nuevo empleado
+        //le sumo 1 al ID
         employee_setId(ptr_AuxNuevoEmpleado,lastId + 1);
-
-        // pido los demas datos
 
         f_i_PedirNombre(buffer,31,"Ingrese el nombre del empleado");
         employee_setNombre(ptr_AuxNuevoEmpleado, buffer);
@@ -104,7 +102,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
         f_i_PedirStringSoloNumeros(buffer,6,"Ingrese el sueldo del empleado:");
         employee_setSueldo(ptr_AuxNuevoEmpleado,atoi(buffer));
 
-        //lo agrego al final de la lista
+       //Lo agrego a la lista
         if(ll_add(pArrayListEmployee, ptr_AuxNuevoEmpleado) == 0)
         {
             retorno = 1;
@@ -112,13 +110,14 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     }
     else
     {
-        printf("Error, no se puede cargar el empleado\n");
+        printf("Error, no es posible cargar al empleado\n");
     }
 
     free (buffer);
 
     return retorno;
 }
+
 /** \brief Modificar datos de empleado
  *
  * \param path char*
@@ -145,7 +144,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
     if(pArrayListEmployee != NULL && ptr_EmpleadoAModificar != NULL)
     {
 
-        f_i_PedirStringSoloNumeros(buffer,7,"Ingrese el id del empleado a modificar:");
+        f_i_PedirStringSoloNumeros(buffer,7,"Ingrese el id del empleado a modificar: ");
         idBuscado = atoi(buffer);
 
         for(i = 0; i < ll_len(pArrayListEmployee); i++)
@@ -164,26 +163,26 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
         if ( indexAModificar != -1 )
         {
             limpiar();
-            printf("Id:           Nombre:   Horas:   Sueldo:\n");
+            printf("  ID          NOMBRE     HORAS  SUELDO\n");
             empleado_imprimir(ptr_EmpleadoAModificar);
             menuModificacion();
             f_i_PedirIntEntre(&opcion,1,4,"");
             switch (opcion)
             {
             case 1:
-                f_i_PedirNombre(buffer,31,"Ingrese el nombre del empleado");
+                f_i_PedirNombre(buffer,31,"Ingrese el nombre del empleado: ");
                 employee_setNombre(ptr_EmpleadoAModificar, buffer);
                 retorno = 1;
                 break;
 
             case 2:
-                f_i_PedirStringSoloNumeros(buffer,4,"Ingrese las horas trabajadas del empleado:");
+                f_i_PedirStringSoloNumeros(buffer,4,"Ingrese las horas trabajadas del empleado: ");
                 employee_setHorasTrabajadas(ptr_EmpleadoAModificar, atoi(buffer));
                 retorno = 1;
                 break;
 
             case 3:
-                f_i_PedirStringSoloNumeros(buffer,6,"Ingrese el sueldo del empleado:");
+                f_i_PedirStringSoloNumeros(buffer,6,"Ingrese el sueldo del empleado: ");
                 employee_setSueldo(ptr_EmpleadoAModificar,atoi(buffer));
                 retorno = 1;
                 break;
@@ -199,13 +198,13 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
     }
     else
     {
-        printf("Error, no se puede modificar \n");
+        printf("Error, no se puede modificar.\n");
     }
 
 
     if (indexAModificar == -1)
     {
-        printf("El empleado no existe\n");
+        printf("El empleado no existe.\n");
     }
 
     free (buffer);
@@ -237,7 +236,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
 
     if(pArrayListEmployee != NULL && aux_Empleado != NULL)
     {
-        f_i_PedirStringSoloNumeros(buffer,7,"Ingrese el id del empleado a dar de baja:");
+        f_i_PedirStringSoloNumeros(buffer,7,"Ingrese el id del empleado a dar de baja: ");
         idBuscado = atoi(buffer);
 
         for(i = 0; i < ll_len(pArrayListEmployee); i++)
@@ -255,7 +254,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
 
         if ( indexARemover != -1 )
         {
-            printf("Id:          Nombre:   Horas:   Sueldo:\n");
+            printf("Id:            Nombre:     Horas:     Sueldo:\n");
             empleado_imprimir(aux_Empleado);
 
             if(f_i_SioNo("\nEliminar este empleado?"))

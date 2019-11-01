@@ -1,5 +1,3 @@
-#ifndef INPUTS_H_INCLUDED
-#define INPUTS_H_INCLUDED
 
 /**\brief Solicita un número entero al usuario , valida que este dentro de 2 parametros y lo asigna a la variable enviada
  * \param var_dondeAsignar es donde se guarda el valor
@@ -15,24 +13,20 @@ void f_i_PedirIntEntre(int * var_dondeAsignar, int min, int max, char mensaje[])
  \return void**/
 void menu(void);
 
-
 /**\brief Imprime un menu de opciones para la modificacion de un empleado
  * \param
  \return void**/
 void menuModificacion(void);
-
 
 /**\brief Imprime un menu de opciones para el orden de los empleados
  * \param
  \return void**/
 int menuOrden(void);
 
-
 /**\brief Imprime un menu de opciones para el orden de los empleados
  * \param
  \return void**/
 int menuCriterio (void);
-
 
 /** \brief Solicita un texto al usuario , valida que sea solo letras y espacios, vuelve la primer letra Mayuscula y el resto minuscula despues de cada espacio
  * elimina saltos de linea
@@ -42,7 +36,6 @@ int menuCriterio (void);
  * \return void
  */
 void f_i_PedirNombre(char var_dondeAsignar[],int longitudMaxString, char mensaje[]);
-
 
 /** \brief Solicita un texto al usuario , valida que sea solo numeros,elimina saltos de linea
 * \param var_dondeAsignar es donde se guarda el valor
@@ -70,6 +63,3 @@ void f_i_continuar(void);
  */
 void limpiar (void);
 
-
-
-#endif // INPUTS_H_INCLUDED
