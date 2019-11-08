@@ -5,6 +5,7 @@
 #include "Controller.h"
 #include "Employee.h"
 
+
 void empleado_imprimir(Employee* ptr_Empleado)
 {
     if(ptr_Empleado != NULL)
@@ -41,55 +42,6 @@ int empleado_ordenarNombre(void* ptr_EmpleadoA, void* ptr_EmpleadoB)
 
     return retorno;
 }
-
-/*int empleado_ordenarNombre(void* ptr_EmpleadoA, void* ptr_EmpleadoB)
-{
-int j,i;
- int retorno = 1;
- Employee* ptr_EmpleadoA;
- Employee* ptr_EmpleadoB;
-
- Employee* ptr_AuxEmpleado = employee_new();
-
- char* bufferA = (char*) malloc (sizeof(char)*128);
- char* bufferB = (char*) malloc (sizeof(char)*128);
-
- if(pArrayListEmployee != NULL && ptr_AuxEmpleado != NULL)
- {
- for (i = 0 ; i < ll_len(pArrayListEmployee)-1 ; i++)
- {
-     ptr_EmpleadoA = ll_get(pArrayListEmployee,i);
-    // employee_getNombre(ptr_EmpleadoA,bufferA);
-
-     for (j = i+1 ; j > ll_len(pArrayListEmployee) ; j++)
-     {
-         ptr_EmpleadoB = ll_get(pArrayListEmployee,j);
-         //employee_getNombre(ptr_EmpleadoA,bufferB);
-
-         //if (strcmp(bufferA,bufferB) > 0)
-         if(strcmp(ptr_EmpleadoA->nombre,ptr_EmpleadoB->nombre)<0)
-         {
-             //ptr_AuxEmpleado = ptr_EmpleadoA ;
-             //ll_set(pArrayListEmployee,ll_indexOf(pArrayListEmployee,ptr_EmpleadoA),ptr_EmpleadoB);
-             //ll_set(pArrayListEmployee,ll_indexOf(pArrayListEmployee,ptr_EmpleadoB),ptr_AuxEmpleado);
-
-
-            ///ptr_EmpleadoA = ptr_EmpleadoB;
-             ///ptr_EmpleadoB = ptr_AuxEmpleado;
-         }
-     }
- }
- }
- else
- {
-     retorno = 0;
- }
-
- free(ptr_AuxEmpleado);
- free(bufferA);
- free(bufferB);
- return retorno;
- }*/
 
 int empleado_ordenarPorId (void* ptr_EmpleadoA, void* ptr_EmpleadoB)
 {

@@ -93,13 +93,13 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
         //le sumo 1 al ID
         employee_setId(ptr_AuxNuevoEmpleado,lastId + 1);
 
-        f_i_PedirNombre(buffer,31,"Ingrese el nombre del empleado");
+        f_i_PedirNombre(buffer,31,"Ingrese el nombre del empleado: ");
         employee_setNombre(ptr_AuxNuevoEmpleado, buffer);
 
-        f_i_PedirStringSoloNumeros(buffer,4,"Ingrese las horas trabajadas del empleado:");
+        f_i_PedirStringSoloNumeros(buffer,4,"Ingrese las horas trabajadas del empleado: ");
         employee_setHorasTrabajadas(ptr_AuxNuevoEmpleado, atoi(buffer));
 
-        f_i_PedirStringSoloNumeros(buffer,6,"Ingrese el sueldo del empleado:");
+        f_i_PedirStringSoloNumeros(buffer,6,"Ingrese el sueldo del empleado: ");
         employee_setSueldo(ptr_AuxNuevoEmpleado,atoi(buffer));
 
        //Lo agrego a la lista

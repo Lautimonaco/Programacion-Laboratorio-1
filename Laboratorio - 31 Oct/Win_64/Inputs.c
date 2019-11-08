@@ -4,7 +4,6 @@
 #include <string.h>
 #include <ctype.h>
 #ifdef __unix__
-//#include <unistd.h>
 #else
 #include <windows.h>
 #endif
@@ -22,7 +21,7 @@ void f_i_PedirIntEntre(int * var_dondeAsignar, int min, int max, char mensaje[])
 
         if (aux > max || aux < min)
         {
-            printf("\n**Error,opcion invalida**");
+            printf("\nError, opcion invalida");
 
         };
     }
@@ -34,7 +33,7 @@ void f_i_PedirIntEntre(int * var_dondeAsignar, int min, int max, char mensaje[])
 void menu (void)
 {
     printf(
-        "--------------------------------------------------------\\n"
+        "--------------------------------------------------------\n"
         "Menu:\n"
         "1. Cargar los datos de los empleados desde el archivo data.csv (modo texto).\n"
         "2. Cargar los datos de los empleados desde el archivo data.bin (modo binario).\n"
@@ -59,7 +58,7 @@ void menuModificacion(void)
         "1. Modificar nombre del empleado.\n"
         "2. Modificar horas trabajadas del empleado.\n"
         "3. Modificar sueldo del empleado.\n"
-        "4. Cancelar.\n"
+        "4. Cancelar.\33n"
         "--------------------------------------------------------\n"
         "Opcion: ");
 

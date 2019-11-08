@@ -27,6 +27,8 @@ void employee_delete();
  *
  */
 int employee_setId(Employee* this,int id);
+
+
 /** \brief busca el valor del parametro id de un empleado especifico
  * \param this es un puntero al empleado
  * \param id es donde se guarda el valor del id
@@ -34,6 +36,7 @@ int employee_setId(Employee* this,int id);
  *
  */
 int employee_getId(Employee* this,int* id);
+
 
 /** \brief  asigna un string al parametro nombre de un empleado
  * \param this es un puntero al empleado
@@ -56,6 +59,8 @@ int employee_getNombre(Employee* this,char* nombre);
  * \return 1 si asigno correctamente , 0 si hubo un error.
  *
  */
+
+
 int employee_setHorasTrabajadas(Employee* this,int horasTrabajadas);
 /** \brief busca el valor del parametro HorasTrabajadas de un empleado especifico
  * \param this es un puntero al empleado
@@ -116,15 +121,15 @@ int empleado_ordenarPorId (void* ptr_EmpleadoA, void* ptr_EmpleadoB);
  */
 int empleado_ordenarPorSueldo (void* ptr_EmpleadoA, void* ptr_EmpleadoB);
 
+
 /** \brief Compara las horas trabajadas de 2 empleados y retorna un valor para ordenar con ll_sort
- * \param ptr_EmpleadoA es el puntero al 1er empleado a comparar
- * \param ptr_EmpleadoB es el puntero al 2do empleado a comparar
+ * \param ptr_EmpleadoA es el puntero al primer empleado a comparar
+ * \param ptr_EmpleadoB es el puntero al segundo empleado a comparar
  * \return  0 si son iguales
  *          -1 si las horas de EmpleadoA < EmpleadoB
  *          1  si las horas de EmpleadoA > EmpleadoB
  */
 int empleado_ordenarPorHoras (void* ptr_EmpleadoA, void* ptr_EmpleadoB);
-
 
 
 #endif // employee_H_INCLUDED
