@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1561515497 source:c:\users\apyr\desktop\luciano_aranda_1a\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1560884112 source:c:\users\apyr\desktop\luciano_aranda_1a\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1560884112 c:\users\apyr\desktop\luciano_aranda_1a\input.h
+
+1561502237 source:c:\users\apyr\desktop\luciano_aranda_1a\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561502237 c:\users\apyr\desktop\luciano_aranda_1a\linkedlist.h
+
+1561515675 source:c:\users\apyr\desktop\luciano_aranda_1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561512578 c:\users\apyr\desktop\luciano_aranda_1a\employee.h
+
+1561517042 source:d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1561502237 d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\linkedlist.h
+
+1560884112 d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\input.h
+
+1561519896 d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\employee.h
+
+1560884112 source:d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1561502237 source:d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561517595 source:d:\2 -cosas personales\tp ruben sempai\utn\primer cuatrimestre\luciano_aranda_1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561520410 source:c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1561520410 c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\linkedlist.h
+
+1561520410 c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\input.h
+
+1561520410 c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\employee.h
+
+1561520410 source:c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1561520410 source:c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561520410 source:c:\users\lauti\onedrive\escritorio\abm-segundo-parcial-master\luciano.aranda.1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1574912945 source:c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1574913459 c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\linkedlist.h
+
+1561520410 c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\input.h
+
+1561520410 c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\employee.h
+
+1574913425 source:c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1561520410 source:c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574913645 source:c:\users\lauti\onedrive\escritorio\practica parcial 2\practica parcial 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1574944956 source:c:\users\alumno\desktop\parcial 2\parcial 2\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1574944344 c:\users\alumno\desktop\parcial 2\parcial 2\linkedlist.h
+
+1574944344 c:\users\alumno\desktop\parcial 2\parcial 2\input.h
+
+1574944956 c:\users\alumno\desktop\parcial 2\parcial 2\employee.h
+
+1574944344 source:c:\users\alumno\desktop\parcial 2\parcial 2\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1574944344 source:c:\users\alumno\desktop\parcial 2\parcial 2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574945729 source:c:\users\alumno\desktop\parcial 2\parcial 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+

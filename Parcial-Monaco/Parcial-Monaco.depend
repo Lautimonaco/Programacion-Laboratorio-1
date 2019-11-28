@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1574946428 source:c:\users\alumno\desktop\parcial-monaco\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"LinkedList.h"
+	"Input.h"
+	"Employee.h"
+
+1574944344 c:\users\alumno\desktop\parcial-monaco\linkedlist.h
+
+1574946324 c:\users\alumno\desktop\parcial-monaco\input.h
+
+1574944956 c:\users\alumno\desktop\parcial-monaco\employee.h
+
+1574944344 source:c:\users\alumno\desktop\parcial-monaco\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"Input.h"
+
+1574944344 source:c:\users\alumno\desktop\parcial-monaco\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574947205 source:c:\users\alumno\desktop\parcial-monaco\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
