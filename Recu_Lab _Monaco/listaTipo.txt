@@ -1,0 +1,11 @@
+id,nombre,tipo,tiempo
+58,Damara,MTB,85
+59,Ellerey,MTB,103
+62,Avis,MTB,79
+68,Jobie,MTB,64
+79,Kalila,MTB,101
+89,Rollins,MTB,116
+91,Buiron,MTB,69
+93,Richmound,MTB,61
+94,Dorree,MTB,66
+97,Christi,MTB,68
